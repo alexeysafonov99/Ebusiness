@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="textEnd"
+    tools:context=".LoginPage">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/circle_top" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/circle_left" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="172dp"
+        android:text="Willkommen Zurück!"
+        android:textAlignment="center"
+        android:textColor="#21005D"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/login_mail"
+        style="@style/Widget.AppCompat.AutoCompleteTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="10dp"
+        android:drawableStart="@drawable/ic_mail"
+        android:drawableLeft="@drawable/ic_mail"
+        android:drawablePadding="16dp"
+        android:ems="10"
+        android:hint="E-Mail Adresse"
+        android:inputType="text"
+        android:minWidth="320dp"
+        android:minHeight="50dp"
+        app:layout_constraintBottom_toTopOf="@+id/login_pw"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/login_pw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="100dp"
+        android:drawableStart="@drawable/ic_lock"
+        android:drawableLeft="@drawable/ic_lock"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="Passwort"
+        android:inputType="textPassword"
+        android:minWidth="320dp"
+        android:minHeight="50dp"
+        app:layout_constraintBottom_toTopOf="@+id/action_login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button_forgot_password"
+        style="@style/TextyButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:onClick="@+id/button_forgot_password"
+        android:padding="0dp"
+        android:text="Passwort vergessen?"
+        app:layout_constraintStart_toStartOf="@+id/login_pw"
+        app:layout_constraintTop_toBottomOf="@+id/login_pw" />
+
+    <Button
+        android:id="@+id/button_register"
+        style="@style/TextyButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:onClick="onClick"
+        android:padding="5dp"
+        android:text="Registrierung"
+        app:layout_constraintBottom_toBottomOf="@+id/no_acc_hint"
+        app:layout_constraintStart_toEndOf="@+id/no_acc_hint"
+        app:layout_constraintTop_toBottomOf="@+id/action_login" />
+
+    <Button
+        android:id="@+id/action_login"
+        android:layout_width="320dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="#4FC0B3"
+        android:onClick="onClick"
+        android:text="Anmelden"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/no_acc_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zum ersten mal hier?"
+        app:layout_constraintStart_toStartOf="@+id/action_login"
+        app:layout_constraintTop_toBottomOf="@+id/action_login" />
+</androidx.constraintlayout.widget.ConstraintLayout>

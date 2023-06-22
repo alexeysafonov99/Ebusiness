@@ -1,0 +1,17 @@
+<resources>
+    <string name="title_activity_shopping_cart">ShoppingCart</string>
+    <string name="app_name">RecommendationBloodBasedApp</string>
+    <string name="kaloriearm">kaloriearm</string>
+    <string name="vegetarisch">vegetarisch</string>
+    <string name="vegan">vegan</string>
+    <string name="fettarm">fettarm</string>
+    <string name="proteinreich">proteinreich</string>
+    <string name="letzte_bestellungen">letzte Bestellungen</string>
+    <string name="deine_heutigen_empfehlungen">deine heutigen Empfehlungen</string>
+    <string name="alle_empfehlungen_in_deinen_einkaufswagen_bernehmen">alle Empfehlungen in deinen Einkaufswagen übernehmen</string>
+    <string name="erdbeere">Erdbeere</string>
+    <string name="textview">Textview</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="productnameplaceholder">ProductName</string>
+    <string name="productpriceplaceholder">ProductPrice</string>
+</resources>

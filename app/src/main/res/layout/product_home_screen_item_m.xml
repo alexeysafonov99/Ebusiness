@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="48dp"
+    android:layout_height="48dp"
+    android:orientation="vertical"
+    android:background="#DFECEA"
+    android:padding="16dp"
+    android:layout_marginBottom="8dp">
+
+    <TextView
+        android:id="@+id/textProduktname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Produktname"
+        android:textSize="13sp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textProduktpreis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Produktpreis"
+        android:textSize="12sp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textProduktbeschreibung"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Produktbeschreibung"
+        android:textSize="12sp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textHersteller"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hersteller"
+        android:textSize="12sp"
+        android:textColor="#000000" />
+
+</LinearLayout>
+

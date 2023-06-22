@@ -1,0 +1,11 @@
+<resources>
+    <!-- Other styles... -->
+
+    <style name="Theme.Ebusiness" parent="Theme.MaterialComponents.Light">
+        <!-- Customize the style as needed -->
+    </style>
+    <style name="TextyButton" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">#4FC0B3</item>
+    </style>
+</resources>
